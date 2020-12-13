@@ -1,0 +1,214 @@
+body{
+    font-family: 'Cardo', sans-serif;
+    text-align:center;
+    
+}
+
+/*Heading sections*/
+
+h1,h2,h3,.cta-header{
+    
+    line-height: 1.5;
+     font-family: 'Montserrat', sans-serif;
+}
+
+div h1{
+
+   font-family: 'piedra',cursive;
+   font-size: 4rem ;
+   
+    
+}
+
+h2{
+    
+    font-size: 2.7rem;
+       
+}
+
+div h3{
+    
+    font-size:1.5rem;
+}
+
+p{
+    color: #8f8f8f;
+    font-size: 1.2rem;
+    padding:2%; 
+}
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+#title .container-fluid{
+    padding:3% 15% 7%;
+    text-align: left;
+}
+
+/*Sections*/
+
+.colored-section{
+    background-color:#ff4c68;
+    color:#fff;
+    
+}
+.white-section{
+    background-color: #fff;
+    
+}
+
+/*navigation section*/
+
+.navbar-brand{
+    font-family: 'Fredoka One', cursive;
+    font-weight:bold;
+    font-size: 2.5rem;
+    color:#734046 !important;
+    margin-left: 0%;
+}
+.navbar{
+    padding: 0 0 4rem;
+}
+.nav-item{
+    padding: 0 30px;
+}
+.navbar-nav{
+    padding-left: 50%;
+    
+}
+.nav-link{
+    font-size:1.3rem ;
+}
+
+/*Downloaded buttons */
+
+.download-button{
+    margin:5% 3% 5% 0; 
+    
+}
+
+/*Image style Section*/
+
+.title-img{
+    width:60%;
+    transform: rotate(25deg);
+    margin: 3% 15%;
+    position:absolute;
+    left:10%;
+    
+}
+
+/*Feature style section*/
+
+#features{
+    
+    position:relative;
+    
+}
+
+.feature-box{
+    
+    padding: 4.5%;
+    
+}
+
+.icon{
+    
+    color: #ff4c68;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    
+    color:#d08752;
+}
+ 
+/*Testimonial section*/
+    
+#testimonials{
+    background-color: #ef8172;
+
+}
+
+.testimonial-img{
+    
+    width:15%;
+    border-radius: 100%;
+    margin:20px;
+    
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 14%;
+    margin:22px 20px 50px;
+}
+
+/*pricing section*/
+
+#pricing{
+
+    padding: 100px;
+    
+}
+.pricing-column{
+    padding:3% 2%;
+}
+
+/*Dowload Section*/
+
+
+.cta-header{
+    
+    font-size: 3rem;
+}
+
+
+/*Footer Section*/
+
+.footer-icon{
+    
+    margin:20px 10px;
+}
+
+/*Media Query*/
+
+@media (max-width:1290px){
+    
+    #title .container-fluid{
+        
+        text-align: center;
+    }
+    .title-img{
+        
+        position: static;
+        transform: rotate(0);
+        
+    }   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
